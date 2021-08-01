@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake game</title>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-game">
+        <div class="game">
+            <h1>Snake Game</h1>
+            <h3 id="score">Score: 0</h3>
+            <h4 id="record">Record: 0</h4>
+            <canvas id="snake" width="512" height="512"></canvas>
+            <h2>Aperte Enter para começar ou Pausar</h2>
+        </div>
+        <div class="settins">
+            <h2>Setting</h2>
+            <div class="speed">
+                <label for="">Snake speed</label>
+                <button id="up">+</button>
+                <button id="down">-</button>
+            </div>
+            <div class="border">
+                <label for="border">Border</label>
+                <select name="" id="border">
+                    <option value="true">
+                        Yes:
+                    </option>
+                    <option value="false">No</option>
+                </select>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+
+</html>

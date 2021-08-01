@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(47, 78, 177);
+    color: white;
+}
+.page-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    
+}
+canvas{
+    border: 1px solid black;
+}
+.game{
+    text-align: center;
+}
+
+.settins{
+    margin-left: 50px;
+}
