@@ -6,4 +6,4 @@
 
 Jogo com uma variedade de configurações para jogar, criado com a intenção de expor softSkills e capacidade de imaginar e criar.
 
-### Disponivel em url()
+### Disponivel em url(https://dev-paulo-matos.github.io/game-snake/index.html)
